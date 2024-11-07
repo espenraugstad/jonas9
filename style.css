@@ -41,7 +41,10 @@ main {
 .tall {
   display: flex;
   margin: 2rem 0;
-  position: relative;
+
+}
+.guess{
+    position: relative;
 }
 
 .siffer {
@@ -49,17 +52,14 @@ main {
   height: 10dvw;
   max-width: 100px;
   max-height: 100px;
-
   margin: 0 0.5rem;
   font-size: 2rem;
   text-align: center;
 }
 .indicator {
   display: inline;
-  height: 10dw;
-  max-height: 100px;
   position: absolute;
-  right: -50px;
+  right: -70px;
   top: 50%;
   transform: translateY(-50%) scale(0.5);
   fill: var(--purple-100);
