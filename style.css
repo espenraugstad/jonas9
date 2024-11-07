@@ -133,14 +133,20 @@ main{
   }
   
   #correctCode div{
-    width: 90dvw;
-    height: 90dvh;
+    width: 70dvw;
+    height: 70dvh;
     justify-content: space-between;
   }
 
   #correctCodeText{
     font-size: 10rem;
     letter-spacing: 2rem;
+  }
+  @media screen and (max-width: 600px) {
+    #correctCodeText{
+        font-size: 3rem;
+        letter-spacing: .2rem;
+      }
   }
 
   #missingDigitOKButton, #correctCodeButton{
